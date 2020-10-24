@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  }
+  #wrapper {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 1000px;
+  }
+  #header {
+    background-color: green;
+    text-align: center;
+    height: 100px;
+    vertical-align: middle;
+    line-height: 50px;
+  }
+  #sketchBox {
+    
+    height: 500px;
+    display: grid;
+  }
+  .sketchBoxGrid {
+    border: 1px solid black;
+  }
+  #controls {
+    background-color: red;
+    height: 100px;
+  }
+  #footer {
+    background-color: pink;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+  }
+  .mouseOverEffectBlack {
+    background-color: black;
+  }
